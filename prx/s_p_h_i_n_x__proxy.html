@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SPHINX Proxy</title>
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/cs-AI-dev/superproxy/master/prx/pgstyle.css?token=ATFFVVM77UDG6MVY7KNH3Y3BYIQDS" />
+		<script src="https://raw.githubusercontent.com/cs-AI-dev/superproxy/master/prx/pgbackend.js?token=ATFFVVICANVDWLGLWXSEZDTBYISMU"></script>
+	</head>
+	<body>
+		<div id="webproxy_entry">
+			<h1>Superbrowser Paraconnecting Hypertext and Information Neutral-XSS Proxy</h1>
+			<p>Enter a website name to attempt to access:</p><br />
+			<input type="text" id="wp_url_input" name="wp_url_input" /><br />
+			<button type="button" onclick="console.log('Attempting web access now.');loadSiteProxy();">Access</button>
+		</div>
+		<div id="webproxy_container">
+			<iframe src="about:blank" title="SPHINX Webproxy" id="webproxy"></iframe>
+		</div>
+	</body>
+</html>
